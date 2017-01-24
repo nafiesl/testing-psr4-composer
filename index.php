@@ -2,4 +2,9 @@
 
 require __DIR__ . '/bootstrap.php';
 
-$class = new Foo\Bar\Testing;
+// Kalo mau pakai `use` dengan namespace kaya gini
+use Model\Kodok;
+
+// Kalo sudah pakai `use`, langsung new nama kelas saja.
+$kodok = new Kodok;
+$kodok->melompat();
