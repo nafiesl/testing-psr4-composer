@@ -2,4 +2,4 @@
 
 require __DIR__ . '/bootstrap.php';
 
-$class = new Testing;
+$class = new Foo\Bar\Testing;

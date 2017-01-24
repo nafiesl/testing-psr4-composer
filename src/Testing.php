@@ -1,5 +1,7 @@
 <?php
 
+namespace Foo\Bar;
+
 class Testing
 {
     function __construct()
